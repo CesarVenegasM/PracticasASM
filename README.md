@@ -1,2 +1,3 @@
 # "Prácticas de ASM RaspberryPi"
-![thumb](https://user-images.githubusercontent.com/89415502/144934239-8b951f4a-3039-4acd-8e1c-99abceacf535.jpg)
+
+![Screen-Shot-2017-08-21-at-3 05 43-PM-_2_](https://user-images.githubusercontent.com/89415502/144934379-0828007b-c4d5-4b33-a248-ec389592612f.jpg)

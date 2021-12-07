@@ -1,13 +1,11 @@
 @@ Instituto Tecnologico de Tijuana
-@@ Depto de Sistemas y Computación
+@@ Depto de Sistemas y Computacion
 @@ Ing. En Sistemas Computacionales
+@@ Autor: Venegas Mendoza Cesar Ivan
+@@ nickname: CesarVenegasM
+@@ Fecha de revision: 06/12/2021
 
-@ Ejemplo
-
-@@autor: CesarVenegasM
-@@Fecha de revisión: 06 de Diciembre del 2021
-
-@@CODIGO
+@@Sección codigo
 
 .data
 var1:   .asciz " %d\012 \000"

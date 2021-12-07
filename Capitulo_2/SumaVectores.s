@@ -14,11 +14,11 @@ var2: .word 128, 32, 100, -30, 124
 .global main
 
 main: push  {r4, lr}
-//Se inicializan las variables y apuntamos r2 a var2
+//En este parte se inicializan las variables y apuntamos r2 a var2
   mov r0, #5
   mov r1, #0
   ldr r2, =var2
-  //Bucle para realizar la suma
+  //Bucle auxiliar para la suma
   bucle:  ldr r3, [r2], #4
     add r1, r1, r3
     subs  r0, r0, #1

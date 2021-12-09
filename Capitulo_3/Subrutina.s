@@ -13,7 +13,7 @@ const2: .word 12345
 
 .text
 .global myrand, mysrand
-myrand : 
+myrand: 
   ldr r1, = seed 
   ldr r0, [ r1 ]  
   ldr r2, [ r1, #4 ] 

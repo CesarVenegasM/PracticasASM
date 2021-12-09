@@ -46,6 +46,7 @@ myrand: ldr r1, =seed
   mov r0, r0, LSR #17
   bx lr
   
-mysrand: ldr r1, =seed
+mysrand: 
+  ldr r1, =seed
   str r0, [r1]
   bx lr

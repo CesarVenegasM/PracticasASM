@@ -11,11 +11,12 @@ var1: .asciz " %d\n"
 .global main
 
 main: push {r4, lr}
-//Introduzco los 4 primeros parametros
+//Introduzco los 4 primeros parametros del registro 0 al 3
   mov r0, #1
   mov r1, #2
   mov r2, #3
   mov r3, #4
+  
 //Introduzco el quinto parametro por pila
   mov r4, #5
   push  {r4}

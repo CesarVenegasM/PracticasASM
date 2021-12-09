@@ -26,7 +26,7 @@ myrand:
   LSL r0, # 1
   LSR r0, # 17
   bx lr
-  mysrand : 
+  mysrand: 
   ldr r1, = seed
   str r0, [ r1 ]
   bx lr

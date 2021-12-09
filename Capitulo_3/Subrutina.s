@@ -10,6 +10,7 @@
 seed : .word 1
 const1 : .word 1103515245
 const2 : .word 12345
+
 .text
 .global myrand, mysrand
 myrand : 

@@ -12,7 +12,8 @@ const1 : .word 1103515245
 const2 : .word 12345
 .text
 .global myrand, mysrand
-myrand : ldr r1, = seed 
+myrand : 
+  ldr r1, = seed 
   ldr r0, [ r1 ]  
   ldr r2, [ r1, #4 ] 
   mul r3, r0, r2 
@@ -24,6 +25,7 @@ myrand : ldr r1, = seed
   LSL r0, # 1
   LSR r0, # 17
   bx lr
-  mysrand : ldr r1, = seed
+  mysrand : 
+  ldr r1, = seed
   str r0, [ r1 ]
   bx lr

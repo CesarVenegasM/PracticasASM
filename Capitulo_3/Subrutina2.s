@@ -15,22 +15,23 @@ const2: .word 12345
 .text
 .global main
 
-@@Se guardan los registros r4 y r5
+//Se guardan los registros r4 y r5
 main: push {r4, r5} 
 
-@@Se llama a mysrand con el valor de 42
+//Se llama a mysrand con el valor de 42
   mov r0, #42 
   bl mysrand
 
-  mov r4, #5 @@Se inicializa el bucle en r4
+  mov r4, #5 //Se inicializa el bucle en r4
   
-@@bucle que imprime 5 numeros aleatorios
-bucle:  bl myrand  @@se lee un numero aleatorio 
-  mov r1, r0 @@se asigna el valor a r1
-  ldr r0, =var1  @@Se hace cadena con r0
-  bl printf @@Llamada a la funcion printf
-  subs r4, r4, #1 @@decremento del contador
-  bne bucle @@salida si se se llega a 0
+//bucle que imprime 5 numeros aleatorios
+bucle:  
+  bl myrand  //se lee un numero aleatorio 
+  mov r1, r0 //se asigna el valor a r1
+  ldr r0, =var1  //Se hace cadena con r0
+  bl printf //Llamada a la funcion printf
+  subs r4, r4, #1 //decremento del contador
+  bne bucle //salida si se se llega a 0
 
 /* Recuperamos registros y salimos */
   pop {r4, r5}

@@ -15,10 +15,11 @@ const2: .word 12345
 .text
 .global main
 
-@@Se guarDan los registros r4 y r5
+@@Se guardan los registros r4 y r5
 main: push {r4, r5} 
 
-  mov r0, #42 @@Se llama a mysrand con el valor de 42
+@@Se llama a mysrand con el valor de 42
+  mov r0, #42 
   bl mysrand
 
   mov r4, #5 @@Se inicializa el bucle en r4

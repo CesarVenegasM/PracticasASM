@@ -23,9 +23,8 @@ main: push {r4, r5}
   bl mysrand
 
   mov r4, #5 @@Se inicializa el bucle en r4
-
-bucle:      @@bucle que imprime 5 numeros aleatorios
-  bl myrand  @@se lee un numero aleatorio 
+@@bucle que imprime 5 numeros aleatorios
+bucle:  bl myrand  @@se lee un numero aleatorio 
   mov r1, r0 @@se asigna el valor a r1
   ldr r0, =var1  @@Se hace cadena con r0
   bl printf @@Llamada a la funcion printf

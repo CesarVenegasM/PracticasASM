@@ -1,8 +1,8 @@
-Ejemplo: 
-  g++ Ejemplo.s -g -o Ejemplo
+HolaMKernel: 
+g++ HolaMKernel.s -g -o HolaMKernel
 Run: 
-  ./Ejemplo
+./HolaMKernel
 gdbRun:
-  gdb Ejemplo
+gdb HolaMKernel
 Limpiar:
-  rm Ejemplo
+rm HolaMKernel

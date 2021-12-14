@@ -5,8 +5,6 @@
 @@ nickname: CesarVenegasM
 @@ Fecha de revision: 11/12/2021
 
-
-
 .section	.bss
 .comm buffer, 48	     //reservar 48 bytes en el buffer
 

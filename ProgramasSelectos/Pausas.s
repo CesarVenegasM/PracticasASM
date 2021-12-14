@@ -1,5 +1,13 @@
+@@ Instituto Tecnologico de Tijuana
+@@ Depto de Sistemas y Computacion
+@@ Ing. En Sistemas Computacionales
+@@ Autor: Venegas Mendoza Cesar Ivan
+@@ nickname: CesarVenegasM
+@@ Fecha de revision: 13/12/2021
+
+
 @ ---------------------------------------
-@	Data Section
+@	Seccion de datos
 @ ---------------------------------------
 	
 	.data
@@ -14,7 +22,7 @@ n	.req    r6              @ counter
 max	.req	r5		@ max # iterations
 
 @ ---------------------------------------
-@	Code Section
+@	Seccion de codigo
 @ ---------------------------------------
 	
 	.text
